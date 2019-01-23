@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+</head>
+<style>
+    body{
+        margin:0;
+        padding:0;
+        background:linear-gradient(to right,red,grey);
+    }
+    h1{
+        font-size:5em;
+        letter-spacing: 12px;
+        font-family: sans-serif;
+        text-align: center;
+        
+    }
+    #color1{
+        border:none;
+    }
+    input[type="color"]{
+        border-radius: 2px;
+    }
+    .center{
+        width:100%;
+        text-align: center;
+        display:block;
+    }
+    button{
+    background: blueviolet;
+    color: #efe4e4;
+    border: none;
+    padding: 14px;
+    width: 80px;
+    font-weight: 900;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    }
+    h3{
+    border-left: 4px solid white;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+        
+    }
+</style>
+	<body>
+
+<h1>Background Gradient <span>Generator</span></h1>
+<div class="center">
+    <input type="color" value="#ff0000" id="color1">
+    <input type="color" value="#808080" id="color2"><br><br>
+    <button id="right">left</button>
+    <button id="left">Right</button>
+    <h3></h3>  
+</div>
+
+
+
+
+</body>
+<script type="text/javascript" src="scriptforbackground.js"></script>
+</html>
