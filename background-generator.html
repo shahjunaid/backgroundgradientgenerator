@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Title </title>
 </head>
+
+
 <style>
     body{
         margin:0;
@@ -51,9 +53,36 @@
     margin: 40px;
         
     }
-    h3:hover{
-        color:aqua;
-        cursor: pointer;
+   
+    .up{
+        height:50%;
+        width:50%;
+        position:absolute;
+        z-index:99;
+        background:black;
+        top:190px;
+        margin-left:190px;
+        opacity:.9;
+        border-radius:10px;
+        display:none;
+    }
+    .up>h1{
+        font-size:30px;
+        color:honeydew;
+        
+    }
+    .clicktocopy{
+        width:auto;
+        cursor:pointer;
+        background:black;
+        color:white;
+        
+    }
+    .di{
+        display:visible;
+    }
+    .e{
+        display:none;
     }
 </style>
 	<body>
@@ -64,9 +93,11 @@
     <input type="color" value="#808080" id="color2"><br><br>
     <button id="right">left</button>
     <button id="left">Right</button>
-    <h3 id="hh"></h3>  
+     
+    <h3 id="hh"></h3>
+    <button class="clicktocopy">Click to copy text</button>
+   
 </div>
-
 
 
 
