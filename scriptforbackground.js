@@ -22,7 +22,7 @@ function addremove(){
 function change1(){
     bdy.style.background="linear-gradient(to right,"+color1.value+","+color2.value +")";
     tex.textContent=bdy.style.background +";";
-    if(copied){copyte.innerHTML = "click to copy";}
+    if(copied){copyte.textContent = "click to copy";}
     if(!addcheck){ addremove(); }
    
     
@@ -31,7 +31,7 @@ function change1(){
 function change2(){
     bdy.style.background="linear-gradient(to left,"+color1.value+","+color2.value +")";
     tex.textContent=bdy.style.background +";";
-     if(copied){copyte.innerHTML = "click to copy";}
+     if(copied){copyte.textContent = "click to copy";}
    	if(!addcheck){ addremove(); }
    
     
@@ -45,7 +45,7 @@ function copytext(){
       el.select();
       document.execCommand('copy');
       document.body.removeChild(el);
-      copyte.innerHTML = "copied";
+      copyte.textContent = "copied";
       copied = true;     
 }
 
