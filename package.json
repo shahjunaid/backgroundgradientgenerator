@@ -1,0 +1,19 @@
+{
+  "name": "backgroundgradientgenerator",
+  "version": "1.0.0",
+  "description": "Background generator allows you to generate a gradient background for you with just a click",
+  "main": "scriptforbackground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahjunaid/backgroundgradientgenerator.git"
+  },
+  "author": "junaid shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahjunaid/backgroundgradientgenerator/issues"
+  },
+  "homepage": "https://github.com/shahjunaid/backgroundgradientgenerator#readme"
+}
